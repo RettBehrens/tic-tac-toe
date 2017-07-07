@@ -1,0 +1,44 @@
+* {
+	text-align: center;
+	color: white;
+}
+
+body {
+	background-color: black;
+}
+
+table {
+	display: inline-block;
+	margin: auto;
+}
+
+td {
+	height: 175px;
+	width: 175px;
+	font-size: 30px;
+}
+
+.open {
+	background-color: grey;
+	border-radius: 50px;
+} 
+
+.clicked-x {
+	background-color: green;
+	border-radius: 50px;
+	font-size: 100px;
+}
+
+.clicked-o {
+	background-color: blue;
+	border-radius: 50px;
+	font-size: 100px;
+}
+
+button {
+	display: block;
+	margin: auto;
+	margin-top: 10px;
+	border-radius: 5px;
+	background-color: red;
+}
